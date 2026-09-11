@@ -2163,3 +2163,179 @@ section {
         font-size: 28px;
     }
 }
+
+
+/* ==========================================================================
+   MOBILE & TABLET RESPONSIVE OVERRIDES (FIX PHOTO & TEXT OVERLAP)
+   ========================================================================== */
+@media screen and (max-width: 991px) {
+    .herosection {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        padding-top: 45px !important;
+        padding-bottom: 50px !important;
+        min-height: auto !important;
+        max-height: none !important;
+        height: auto !important;
+        overflow: visible !important;
+        gap: 30px !important;
+    }
+
+    .herocontent {
+        width: 100% !important;
+        max-width: 600px !important;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        float: none !important;
+        position: relative !important;
+    }
+
+    .herop {
+        font-size: 28px !important;
+        line-height: 1.3 !important;
+        padding: 0 !important;
+        margin: 0 auto 16px auto !important;
+        text-align: center !important;
+    }
+
+    .herop2 {
+        font-size: 14px !important;
+        line-height: 1.6 !important;
+        margin: 16px auto !important;
+        padding: 10px 14px !important;
+        border-left: 3px solid #08D665 !important;
+        text-align: left !important;
+        max-width: 520px !important;
+    }
+
+    .herobtns {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 12px !important;
+        margin: 24px auto 0 auto !important;
+        flex-wrap: wrap !important;
+    }
+
+    .herobtn, .herobtn2 {
+        margin: 0 !important;
+        padding: 12px 22px !important;
+        font-size: 13px !important;
+        white-space: nowrap !important;
+    }
+
+    .heroimg {
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        max-height: none !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 15px 0 0 0 !important;
+        padding: 0 !important;
+        position: relative !important;
+        overflow: visible !important;
+    }
+
+    .image2 {
+        width: 100% !important;
+        max-width: 270px !important;
+        height: auto !important;
+        max-height: 320px !important;
+        object-fit: cover !important;
+        display: block !important;
+        margin: 0 auto !important;
+        border-radius: 20px !important;
+        box-shadow: 0 0 25px rgba(8, 214, 101, 0.25) !important;
+    }
+
+    /* About Section */
+    .about {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        min-height: auto !important;
+        padding-top: 45px !important;
+        padding-bottom: 45px !important;
+        gap: 30px !important;
+    }
+
+    .aboutimage {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 0 !important;
+    }
+
+    .imageabout {
+        width: 100% !important;
+        max-width: 260px !important;
+        height: auto !important;
+        max-height: 300px !important;
+        object-fit: cover !important;
+        margin: 0 auto !important;
+        border-radius: 18px !important;
+    }
+
+    .aboutcontent {
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+    }
+
+    .aboutp {
+        font-size: 26px !important;
+        line-height: 1.3 !important;
+        text-align: center !important;
+    }
+
+    .aboutp1 {
+        font-size: 14px !important;
+        text-align: center !important;
+        margin-top: 14px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .herosection {
+        padding-top: 35px !important;
+        padding-bottom: 40px !important;
+        min-height: auto !important;
+        max-height: none !important;
+        height: auto !important;
+        gap: 22px !important;
+    }
+
+    .herop {
+        font-size: 23px !important;
+        line-height: 1.35 !important;
+    }
+
+    .herop2 {
+        font-size: 13.5px !important;
+        padding: 10px 12px !important;
+        margin: 14px auto !important;
+    }
+
+    .image2 {
+        max-width: 220px !important;
+        max-height: 260px !important;
+    }
+
+    .aboutimage {
+        display: flex !important;
+    }
+
+    .imageabout {
+        max-width: 220px !important;
+        max-height: 260px !important;
+    }
+}
